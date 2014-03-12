@@ -15,18 +15,18 @@ end
 
 
 get '/form' do
- erb :form
+  erb :form
 end
 
 post '/article' do
 
-title = params['title']
-url = params['url']
-description = params['description']
+  title = params['title']
+  url = params['url']
+  description = params['description']
 
-File.open('data.csv', 'a', headers: true) do |file|
+  File.open('data.csv', 'a', headers: true) do |file|
     file.puts(title + ',' + url + ',' + description)
- end
+  end
 
 redirect '/'
 
