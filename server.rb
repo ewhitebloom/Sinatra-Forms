@@ -19,7 +19,6 @@ get '/form' do
 end
 
 
-
 post '/article' do
 
   title = params['title']
