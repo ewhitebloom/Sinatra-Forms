@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+  <title>Wizard News</title>
+  <link rel="stylesheet" href="home.css">
+</head>
+<html lang="en">
+<body>
+  <h1>Wizard News Articles</h1>
+  <h3><a href='/form'>Submit your own</a></h3>
+  <% @articles.each do |article| %>
+  <ul>
+    <li class="title"><%= article[:title] %></li>
+    <li class="url"><a target="_blank" href="<%= article[:url] %>"><%= article[:url] %></a></li>
+    <li class="description"><%= article[:description] %></li>
+  </ul>
+  <hr>
+  <% end %>
+</body>
+</html>

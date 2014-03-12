@@ -1,0 +1,37 @@
+body {
+  background-color: #fff;
+  font-family:"Times New Roman", "Times New Roman", sans-serif;…
+}
+
+#wrapper {
+  background: #fff;
+  opacity:.5;
+  padding:0 0 50px 0;
+}
+
+h1 {font-size: 250% ;
+  text-indent:30px;
+  text-align: center;
+}
+
+input {
+  display: block;
+}
+
+h3 {
+  text-align: center;
+}
+
+ul {
+font-weight:bold;
+  list-style: none;
+}
+
+li {
+  font-style:bold;
+  padding-top: 5px;
+}
+
+.title {
+  font-size:1.5em;
+}

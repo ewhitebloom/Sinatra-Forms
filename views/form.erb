@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+  <title>Wizard News</title>
+  <link rel="stylesheet" href="home.css">
+</head>
+<html lang="en">
+<body>
+<form action="/article" method="post" id='news_form'>
+<p>Post a New Article:</p>
+
+  <label for="title_field">Title</label>
+  <input type="text" id="title_field" name="title" />
+
+  <label for="url_field">Link</label>
+  <input type="url" id="url_field" name="url" />
+
+  <label for="description_field">Description</label><br>
+  <textarea form='news_form' name="description" id="desription_field "></textarea>
+
+  <input type="submit"/>
+</form>
+<p><a href='/'>Back to Wizard News</a></p>
+</body>
+</html>
